@@ -17,9 +17,18 @@ section
       height: 100vh;
 }
 
+
+section .content 
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
 section .content .image
 {
-      width: 300px;
+      width: 200px;
 }
 
 
@@ -33,7 +42,7 @@ section .content .image img
 
 section .content .text
 {
-      width: 300px;
+      width: 200px;
       display: flex;
       text-align: center;
       flex-direction: column;
@@ -43,6 +52,7 @@ section .content .text h2
 {
       color:hsl(218, 44%, 22%);
       margin-bottom: 30px;
+      font-size: 17px;
 }
 
 section .content .text p
